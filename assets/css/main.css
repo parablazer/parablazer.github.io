@@ -4142,3 +4142,11 @@ input, select, textarea {
 		}
 
 	}
+
+	.fa.fa-laptop-code{
+		font-size: 1.9em;
+	}
+
+	.margin-b{
+		margin-bottom: 5px;
+	}
