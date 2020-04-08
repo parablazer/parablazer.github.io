@@ -38,11 +38,31 @@ background-attachment: fixed;
   text-align: center;
 }
 
-.img img{
-  border-radius: 100%;
-  width: 20em;
-  height: 20em;
-  margin-top: 25em;
+
+  .img img{
+    border-radius: 100%;
+    width: 20em;
+    height: 20em;
+    margin-top: 25em;
+  }
+
+
+@media screen and (max-width: 800px) {
+
+    .img img{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .img img{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
 }
 
 #title-1{
@@ -65,9 +85,32 @@ padding-bottom: 2%
 }
 #content{
   text-align: center;
-  margin: 40rem auto 25rem auto;
   color: rgb(255, 255, 255);
+  margin: 40rem auto 25rem auto;
+}
 
+
+@media screen and (max-width: 1200px) {
+
+  #content{
+    margin: 40rem auto 25rem auto;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #content{
+    margin: 5rem auto 5rem auto;
+  }
+}
+
+@@media screen and (max-width: 600px) {
+
+  #content{
+    margin: 5rem auto 5rem auto;
+
+  }
 }
 
 #three{
