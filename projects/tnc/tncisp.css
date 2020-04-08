@@ -1,0 +1,101 @@
+.background-1{
+background-image: url(elements/background-1.jpg);
+background-size: cover;
+background-position: top;
+background-attachment: fixed;
+}
+
+.cap{
+  text-transform: capitalize;
+}
+.btn-color{
+  background-color: rgb(165, 171, 185);
+  border-color: rgb(74, 74, 74);
+  color: black;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.btn-color:hover{
+  background-color: rgb(139, 139, 139);
+  border-color: rgb(182, 182, 182);
+  color: black;
+}
+
+
+.navbar-brand{
+  font-weight: 900;
+  font-size: 1.6em;
+}
+
+#navbar-left{
+  font-size: 1.5em;
+}
+#navbar-right{
+  font-size: 1.5em;
+}
+
+.center{
+  text-align: center;
+}
+
+.img img{
+  border-radius: 100%;
+  width: 20em;
+  height: 20em;
+  margin-top: 25em;
+}
+
+#title-1{
+  font-weight: 800;
+
+}
+
+#title-2{
+  font-weight: 300;
+
+}
+
+.top{
+text-align: center;
+padding-bottom: 2%
+}
+
+.bottom{
+  text-align: center;
+}
+#content{
+  text-align: center;
+  margin: 40rem auto 25rem auto;
+  color: rgb(255, 255, 255);
+
+}
+
+#three{
+  background-color: rgb(159, 159, 159);
+  color: white;
+  padding: 10rem;
+
+}
+
+#hd-three{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+#footer{
+  background-image: url(elements/footer-1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding: 20rem;
+}
+
+.md-font{
+  font-size: 1.2em;
+}
+
+.content{
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
