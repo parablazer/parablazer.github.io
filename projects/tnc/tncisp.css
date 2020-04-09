@@ -84,11 +84,14 @@ padding-bottom: 2%
 .bottom{
   text-align: center;
 }
+
 #content{
   text-align: center;
   color: rgb(255, 255, 255);
   margin: 40rem auto 25rem auto;
 }
+
+
 
 
 @media screen and (max-width: 1200px) {
@@ -129,10 +132,18 @@ padding-bottom: 2%
 #footer{
   background-image: url(elements/footer-1.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
-  padding: 20rem;
+  padding: 20rem 0 20rem 0;
 }
+
+@media screen and (max-width: 600px){
+  #footer{
+    padding: 5rem 0 5rem 0;
+  }
+}
+
+
 
 .md-font{
   font-size: 1.2em;
@@ -142,4 +153,10 @@ padding-bottom: 2%
   font-size: 1em;
   font-weight: bold;
   color: white;
+  padding: auto 15 auto 15;
+}
+
+.footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
