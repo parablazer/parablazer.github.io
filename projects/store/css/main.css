@@ -2,8 +2,14 @@
   text-transform: capitalize;
 }
 
-
-
+.navbar fixed-top navbar-expand-lg navbar-light bg-light{
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 .header{
   margin-top: 3%;
   padding: 1rem 0 1rem 0;
