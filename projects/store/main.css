@@ -1,3 +1,39 @@
 .cap{
   text-transform: capitalize;
 }
+
+.header{
+  margin-top: 3%;
+  padding: 1rem 0 1rem 0;
+  background: rgb(2, 180, 20);
+  border: solid rgb(2, 180, 20);
+}
+
+.red{
+  border: solid red;
+}
+
+.top{
+  background-color: rgb(2, 180, 20);
+  padding: 5rem 0 2rem 0;
+  border: solid rgb(2, 180, 20);
+}
+
+.title{
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#name{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+.menu{
+  background: rgb(2, 180, 20);
+  border: solid rgb(2, 180, 20);
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
