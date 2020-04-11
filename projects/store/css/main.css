@@ -47,7 +47,12 @@
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-/--------------------Dropdown----------------------------/
+
+.middle{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+/*--------------------Dropdown----------------------------*/
 .dropbtn{
   background-color: rgb(2, 180, 20);
   color: white;
