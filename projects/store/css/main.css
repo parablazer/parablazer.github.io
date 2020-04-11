@@ -39,6 +39,7 @@
 .menu{
   background: rgb(2, 180, 20);
   border: solid rgb(2, 180, 20);
+  text-align: center;
 }
 
 .info{
