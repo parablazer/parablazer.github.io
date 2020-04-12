@@ -1,7 +1,9 @@
 .cap{
   text-transform: capitalize;
 }
-
+.font-rbt{
+    font-family: 'Roboto Mono', monospace;
+}
 .navbar fixed-top navbar-expand-lg navbar-light bg-light{
   font-family: 'Roboto Mono', monospace;
 }
@@ -29,7 +31,7 @@
 }
 
 .title{
-  background-image: url('../images/forest-1-cropped-scaled.jpg');
+  background-image: url('../images/forest-1-cropped-scaled.jpg'); /*Photo by Lou Levit on Unsplash*/
   background-position: 30%;
   background-size: cover;
   background-attachment: scroll;
@@ -51,17 +53,69 @@
   /* text-align: center; */
 }
 
-.info{
+.info-left{
+
   text-align: center;
-  border: 1px solid grey;
+  border-left: 1px solid rgb(16, 92, 23);
+  border-top: 1px solid rgb(16, 92, 23);
+  border-bottom: 1px solid rgb(16, 92, 23);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   margin-top: 1rem;
   margin-bottom: 2rem;
   Photo by Lou Levit on Unsplash
+}
+.info-center{
+  text-align: center;
+  border: 1px solid rgb(16, 92, 23);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  Photo by Lou Levit on Unsplash
+}
+.info-right{
+  text-align: center;
+  border-right: 1px solid rgb(16, 92, 23);
+  border-top: 1px solid rgb(16, 92, 23);
+  border-bottom: 1px solid rgb(16, 92, 23);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
 }
 
 .middle{
   padding-left: 5rem;
   padding-right: 5rem;
+
+}
+.middle p:nth-of-type(1){
+  font-size: 1.2rem;
+}
+
+.middle p:nth-of-type(2){
+  font-size: .8rem;
+}
+
+/* ------------------------------Devide------------------------- */
+
+.divide{
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(16, 92, 23);
+  border-color: rgb(16, 92, 23);
+}
+
+/* ----------------------Main Content------------------------ */
+.left-bar{
+  text-align: left;
+}
+
+.main{
+  text-align: center;
+}
+.right-bar{
+  text-align: right;
 }
 /*--------------------Dropdown----------------------------*/
 .dropbtn{
@@ -126,4 +180,12 @@
   display:block;
   margin: 0 auto 0 auto;
   max-width: 300px;
+}
+
+/* ------------------------------footer----------------------- */
+
+#footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(143, 143, 142, 0.76);
 }
