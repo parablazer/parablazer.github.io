@@ -1,9 +1,10 @@
-var dropDown = document.getElementsByClassName('dropdown');
+var showNav = document.getElementsByClassName('navbar-toggle');
+var width = screen.width;
 
-dropDown.addEventListener('mouseover', function(){
-  document.querySelector('ul').classList.remove('dropdown-menu');
-});
-
-dropDown.addEventListener('mouseout', function(){
-  document.querySelector('ul').classList.add('dropdown-menu');
+function showNav() {
+  if(width <= 800px){
+    showNav.hidden = false;
+  }
+}
+  ;
 });
