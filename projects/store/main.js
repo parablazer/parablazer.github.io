@@ -1,15 +1,6 @@
-var showNav = document.getElementById('nav-toggle');
-var isOpen = false;
+const toggleBtn = document.getElementById('nav-toggle');
+const navbar = document.getElementsByClassName('collapse-navbar')[0]
 
-showNav.addEventListener('click', function() {
-openNav()
-});
-function openNav() {
-  document.getElementsByClassName("colapse-navbar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+toggleBtn.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+})
