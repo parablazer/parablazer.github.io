@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.logo span{
+  margin-top: 2rem;
+}
+
+.nav a{
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 25px;
+  padding: 5px;
+}

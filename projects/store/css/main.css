@@ -54,6 +54,9 @@
   .navbar-toggle{
     display: flex;
   }
+  .navbar-logo{
+    font-size: 1rem;
+  }
   .navbar-mine{
     flex-direction: column;
     align-items: flex-start;
@@ -81,7 +84,10 @@
     transform: scaleY(1);
     height: 200px;
   }
-
+  #cart{
+    width: 100%;
+    align-items: center;
+  }
 }
 /* ---------END MEDIA-------------- */
 .collapse-navbar{
@@ -115,8 +121,10 @@
 }
 
 #cart{
+  display: flex;
   border: none;
   background: white;
+  align-items: center;
   width: 50px;
   height: 50px;
   margin-right: 25px;
