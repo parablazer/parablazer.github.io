@@ -1,29 +1,77 @@
 body{
   margin: 0;
 }
+.navbar-nav a{
+  border-radius: 5px;
+  tex
+}
+.navbar-nav a:hover{
+  transition: background-color 0.5s ease;
+  background-color: gray;
+}
 
-.nav{
+.navbar navbar-expand-lg navbar-light bg-light{
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  background-color: rgba(154, 4, 4, 0.34);
+}
+.carousel-inner img {
+  height: 400px !important;
+  width: 400px !important;
+
+
+}
+.carousel-item{
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.main{
+  height: 500px;
   display: flex;
-  flex-direction: row;
-}
-.logo{
+  flex-direction: column;
+  justify-content: flex-start;
   font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 1.5em;
   color: black;
-  font-size: 2em;
-  text-decoration: none;
-  margin-left: 25px;
-  padding: 5px;
+
+
+}
+.main h2{
+  text-align: center;
 }
 
-.logo span{
-  margin-top: 2rem;
+.jumbotron{
+  font-family: 'Roboto Mono', monospace;
+  color: gray;
+  font-size: 1.2em;
+  background-image: url(images/background-3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
-.nav a{
+.footer{
+  padding-top: 5rem;
   font-family: 'Roboto Mono', monospace;
   color: black;
-  font-size: 2em;
+  font-size: 3em;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.77);
+
+
+
+}
+#contact{
   text-decoration: none;
-  margin-left: 25px;
-  padding: 5px;
+  color: black;
+  margin-bottom: 20px;
+}
+.footer p {
+  margin: 0;
 }
