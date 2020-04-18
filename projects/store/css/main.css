@@ -1,5 +1,9 @@
 /* ------------------------NAVBAR------------------ */
 
+body{
+  margin: 0;
+  width: 100%;
+}
 .navbar-mine{
   display: flex;
   justify-content: space-between;
