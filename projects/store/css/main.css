@@ -1,8 +1,8 @@
 /* ------------------------NAVBAR------------------ */
 
-body{
-  margin: 0;
-  width: 100%;
+
+@-ms-viewport {
+  width: device-width;
 }
 .navbar-mine{
   display: flex;
@@ -49,12 +49,15 @@ body{
   text-align: center;
   display: flex;
 }
-@media (max-width: 1300px){
+@media only screen and (max-width: 1300px){
   .inline-form{
     display: none;
   }
 }
-@media (max-width: 900px){
+@media only screen and (max-width: 900px){
+  body{
+    width: 100%;
+  }
   .navbar-toggle{
     display: flex;
   }
@@ -91,6 +94,39 @@ body{
   #cart{
     width: 100%;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+html, body, section{
+    min-width: 320px;
+}
+section img{
+  max-width: 320px;
+}
+}
+@media screen and (max-width: 736px){
+  body, input, select, textarea, nav, section{
+    font-size: 12pt;
+  }
+  section img{
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 980px){
+  body, input, select, textarea{
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 1280px){
+  body, input, select, textarea{
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 1680px){
+  body, input, select, textarea{
+    font-size: 13pt;
   }
 }
 /* ---------END MEDIA-------------- */
@@ -159,7 +195,10 @@ body{
 /* ------------------------------BODY---------------------- */
 
 body{
-  margin-top: 0;
+  margin: 0;
+  width: 100%;
+  height:100%;
+
 }
 .cap{
   text-transform: capitalize;
@@ -352,6 +391,9 @@ body{
   display:block;
   margin: 0 auto 0 auto;
   max-width: 300px;
+}
+.card-img-top{
+  width: 250px !important;
 }
 
 /* ------------------------------footer----------------------- */
